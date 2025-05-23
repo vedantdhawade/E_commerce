@@ -36,7 +36,7 @@ const page = () => {
             className="border p-2 focus:outline-none rounded"
           />
           <button className="bg-blue-700 text-white px-4 py-2 rounded-md">
-            Login
+            <Link href={"/admin"}>Login</Link>
           </button>
           <div className="flex justify-between items-center gap-3">
             <Link href="/signup">
